@@ -1,10 +1,12 @@
 html{
     background-color: #FFDEBD;
 }
+
 header, section, footer{
     background: url(https://images.unsplash.com/photo-1670893494888-aa305e5d147a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/ cover;
     
 }
+
 .hero{
     height: 100vh;
     width: 100%;
@@ -53,29 +55,37 @@ header nav{
     margin: 0 10%;
 }
 
-.hola-svg{
+h3{
     display: flex;
     align-items: center;
     margin-top: 50px;
-}
-h3{
     color: white;
     font-size: 10vh;
-    padding-left: 30px;
+    padding-left: 5%;
+    padding-top: 5%;
 }
+
 .hola{
     height: 100vh;
     width: 100%;
 }
+
 .presentacion{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    padding: 20px 0;    
 }
-p{
+
+.hola div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15%;
+    margin: 0;
     color: white;
-    padding: 10px 20%;
-    
+    text-align: justify;
+
 }
