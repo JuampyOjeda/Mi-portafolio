@@ -90,13 +90,12 @@ h3{
     width: 60%;
 
 }
-.cv div{
+.sobre-mi{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;  
     align-items: center;
-    justify-content: center;
     color: white;
-    
+    width: 100%;
 }
 
 .cv{
