@@ -126,3 +126,9 @@ h4{
     font-size: 6vh;
 
 }
+
+.arrow{
+    width: 20vh;
+    height: 10vh;
+    transform: rotate(135deg);
+}
