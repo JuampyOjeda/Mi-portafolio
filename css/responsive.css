@@ -1,11 +1,36 @@
 @media (max-width:320px){
+    html{
+        width: 100%;
+    }
 
 }
 
-@media (max-width:480px){}
+@media (max-width:480px){
+    .sobre-mi{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    html{
+        width: 100%;
+    }
+}
 
 @media (max-width:768px){
-    nav
+    .lista{
+        display: block;
+        align-items: center;
+    }
+    nav .navegador{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    html{
+        width: 100%;
+    }
 }
 
 @media (max-width:1024px){}
