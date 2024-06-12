@@ -112,8 +112,9 @@ h3{
     
 }
 .sobre-mi div{
-    padding: 5%;
-    width: 100%;
+    padding: 0 5%;
+    width: 10%;
+    height: 0;
 }
 
 h4{
@@ -139,4 +140,9 @@ h4{
 .asterisco-blanco{
     height: 2vh;
     padding: 0 1vh;
+}
+
+.foto-cv{
+    width: 25vh;
+    height: 30vh;
 }
