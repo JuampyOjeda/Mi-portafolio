@@ -14,7 +14,7 @@ header, section, footer{
 }
 
 .hero{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     text-align: center;
 }
@@ -70,10 +70,11 @@ header nav{
     display: flex;
     justify-content: space-between;
     margin: 0 10%;
+    font-size: 150%;
 }
 
 h3{
-    margin-top: 50px;
+   
     color: white;
     font-size: 10vh;
     padding-left: 5%;
@@ -81,7 +82,7 @@ h3{
 }
 
 .hola{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -101,8 +102,7 @@ h3{
     padding: 0 15%;
     margin: 0;
     color: white;
-    text-align: justify;
-    width: 100vh;
+    padding-left: 15%;
 
 }
 .sobre-mi{
@@ -118,12 +118,8 @@ h3{
     padding: 5vh 10vh 0 0;
 }
 
-.hola div{
-    padding-left: 40vh;
-}
-
 .cv{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -131,8 +127,8 @@ h3{
     height: 100vh;
     width: 100%;
 }
-.contacto{
-    height: 100vh;
+footer{
+    height: 100%;
     
 }
 .sobre-mi div{
@@ -183,4 +179,39 @@ h4{
 
 span{
     color: #FBA54C;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.telefono{
+    margin: 0;
+    padding-top: 2%;
+}
+input{
+    height: 5vh;
+    width: 50vh;
+}
+.mensaje{
+    height: 20vh;
+}
+
+.formulario, .pie{
+    margin: 0;
 }
