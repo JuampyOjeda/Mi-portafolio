@@ -98,7 +98,7 @@ h3{
 .hola div{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     padding: 0 15%;
     margin: 0;
@@ -117,11 +117,11 @@ h3{
 
 .colum1 p, .colum2 p{
     width: 100%;
-    padding: 5vh 5vh 0 0;
+    padding: 5vh 10vh 0 0;
 }
 
 .hola div{
-    padding-left: 50vh;
+    padding-left: 40vh;
 }
 
 .cv{
@@ -181,4 +181,8 @@ h4{
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+span{
+    color: #FBA54C;
 }
