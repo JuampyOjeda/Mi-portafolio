@@ -91,7 +91,7 @@ h3{
 
 }
 .sobre-mi{
-    display: flex;
+    display: flex;  
     justify-content: space-between;  
     align-items: center;
     color: white;
@@ -112,9 +112,9 @@ h3{
     
 }
 .sobre-mi div{
-    padding: 0 5%;
-    width: 10%;
-    height: 0;
+    padding: 0 5vh;
+    width: 100vh;
+    height: 100vh;
 }
 
 h4{
@@ -143,6 +143,9 @@ h4{
 }
 
 .foto-cv{
-    width: 25vh;
-    height: 30vh;
+    width: 33vh;
+    height: 40vh;
+}
+.foto-cv, .mi-nombre, .localidad{
+    margin: 0;
 }
