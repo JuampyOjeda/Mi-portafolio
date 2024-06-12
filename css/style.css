@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 html{
     background-color: #FFDEBD;
 } 
 
 header, section, footer{
     background: url(https://images.unsplash.com/photo-1670893494888-aa305e5d147a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/ cover;
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  
     
 }
+
+
 
 .hero{
     height: 100vh;
@@ -23,9 +31,12 @@ header div{
 }
 
 .portafolio h1{
-    font-family: "Anton", sans-serif;
-    font-size: 20vh;
+    font-size: 30vh;
     color: white;
+}
+.portafolio, .nom-svg-des{
+    margin: 0;
+    padding: 0;
 }
 
 .nom-svg-des{
@@ -47,8 +58,15 @@ a{
     margin: 0;
     text-decoration: none;
     color: white;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
+p{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 header nav{
     display: flex;
     justify-content: space-between;
@@ -152,4 +170,7 @@ h4{
 
 .localidad{
     color: #FBA54C;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
