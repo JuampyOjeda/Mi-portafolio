@@ -79,6 +79,7 @@ h3{
     font-size: 10vh;
     padding-left: 5%;
     padding-top: 5%;
+    margin-bottom: 2%;
 }
 
 .hola{
@@ -140,6 +141,7 @@ footer{
 h4{
     color: #FBA54C;
     font-size: 4vh;
+    margin: 2% 0;
 }
 
 .mi-nombre{
@@ -165,6 +167,7 @@ h4{
 .foto-cv{
     width: 33vh;
     height: 40vh;
+    border-radius: 2%;
 }
 .foto-cv, .mi-nombre, .localidad{
     margin: 0;
@@ -207,6 +210,7 @@ form{
 input{
     height: 5vh;
     width: 50vh;
+    border-radius: 4%;
 }
 .mensaje{
     height: 20vh;
@@ -214,4 +218,31 @@ input{
 
 .formulario, .pie{
     margin: 0;
+}
+
+.proyectos{
+    margin-top: 5%;
+}
+
+.mi-proyecto{
+    padding-top:5%;
+    padding-left: 5%;
+    color: white;
+    font-size: 150%;
+}
+
+h5{
+    margin: 1% 0;
+}
+
+button{
+    padding: 0 15px;
+    border-radius: 5%;
+    border: 0;
+    text-decoration: none;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: #FBA54C;
 }
