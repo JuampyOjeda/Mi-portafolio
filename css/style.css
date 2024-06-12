@@ -149,3 +149,7 @@ h4{
 .foto-cv, .mi-nombre, .localidad{
     margin: 0;
 }
+
+.localidad{
+    color: #FBA54C;
+}
